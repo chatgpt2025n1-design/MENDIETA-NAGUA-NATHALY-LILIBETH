@@ -185,12 +185,21 @@ code {
     transform: translateY(0);
 }
 
-/* Contenedor del Video de YouTube Shorts (CORREGIDO PARA ADAPTARSE) */
+/* --- ESTILOS DEL VIDEO (A PRUEBA DE GITHUB) --- */
+
+/* Caja maestra que obliga al contenido a estar en el centro absoluto */
+.centrar-video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+/* Contenedor del video con el tamaño de celular */
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 320px;
-    margin: 2rem auto;
+    max-width: 320px; 
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(206, 147, 216, 0.5);
