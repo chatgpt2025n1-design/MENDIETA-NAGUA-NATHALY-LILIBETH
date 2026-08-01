@@ -131,7 +131,7 @@ code {
     font-weight: bold;
 }
 
-/* Imágenes */
+/* Imágenes estilizadas y controladas */
 .imagen-tema {
     width: 100%;
     max-width: 600px;
@@ -144,13 +144,17 @@ code {
 }
 
 .img-pequena {
-    max-width: 350px;
+    max-width: 320px;
+}
+
+.margin-top-extra {
+    margin-top: 2.5rem;
 }
 
 /* Grid de Conceptos */
 .concepto-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -169,7 +173,7 @@ code {
     margin-bottom: 0.5rem;
 }
 
-/* Animación JS */
+/* Animación JS (Estado inicial y final) */
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -179,6 +183,22 @@ code {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Contenedor del Video de YouTube Shorts */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.video-corto {
+    width: 315px;
+    max-width: 100%;
+    height: 560px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(206, 147, 216, 0.4);
+    border: 4px solid #f8bbd0;
 }
 
 /* Pie de página */
